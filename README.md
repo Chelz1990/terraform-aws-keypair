@@ -1,2 +1,10 @@
-# terraform-aws-keypair
-Creating a key pair module for class 
+### Creates ec2 key pair
+
+#### Usage
+
+```
+module "keypair" {
+  source  = "Chelz1990/keypair/aws"
+  version = "0.0.1"
+}
+```
